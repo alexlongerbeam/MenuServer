@@ -1,0 +1,27 @@
+{
+  "name": "menu-scraper",
+  "version": "0.0.1",
+  "description": "Backend for UCLA Dining hall menu app",
+  "main": "server.js",
+  "author": "Alex Longerbeam",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.2",
+    "express": "^4.15.4",
+    "memjs": "^1.0.0-rc.1",
+    "request": "^2.81.0"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexlongerbeam/MenuServer.git"
+  },
+  "keywords": [],
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alexlongerbeam/MenuServer/issues"
+  },
+  "homepage": "https://github.com/alexlongerbeam/MenuServer#readme"
+}
